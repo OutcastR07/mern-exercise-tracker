@@ -63,10 +63,10 @@ const CreateExercise = () => {
   };
 
   return (
-    <div className="container mx-auto p-4">
+    <div className="container mx-auto px-4 py-8">
       <h3 className="text-2xl font-semibold mb-4">Create New Exercise Log</h3>
       <form onSubmit={onSubmit}>
-        <div className="mb-4 p-2">
+        <div className="mb-4">
           <label htmlFor="username" className="block text-gray-700">
             Username:
           </label>
@@ -84,7 +84,7 @@ const CreateExercise = () => {
             ))}
           </select>
         </div>
-        <div className="mb-4 p-2">
+        <div className="mb-4">
           <label htmlFor="description" className="block text-gray-700">
             Description:
           </label>
@@ -97,7 +97,7 @@ const CreateExercise = () => {
             onChange={onChangeDescription}
           />
         </div>
-        <div className="mb-4 p-2">
+        <div className="mb-4">
           <label htmlFor="duration" className="block text-gray-700">
             Duration (in minutes):
           </label>
@@ -109,7 +109,7 @@ const CreateExercise = () => {
             onChange={onChangeDuration}
           />
         </div>
-        <div className="mb-4 p-2">
+        <div className="mb-4">
           <label htmlFor="date" className="block text-gray-700">
             Date:
           </label>
